@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/foodShop"
+        android:layout_width="355dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="1dp"
+        android:background="#946B6B"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/food1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#E7CD90"
+            android:layout_gravity="center"
+            ></Button>
+
+        <Button
+            android:id="@+id/food2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#E7CD90"
+            android:layout_gravity="center"></Button>
+
+        <Button
+            android:id="@+id/food3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#E7CD90"
+            android:layout_gravity="center"></Button>
+
+        <Button
+            android:id="@+id/food4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#E7CD90"
+            android:layout_gravity="center"></Button>
+
+        <Button
+            android:id="@+id/food5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#E7CD90"
+            android:layout_gravity="center"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eggDisplay_row1"
+        android:layout_width="402dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/eggDisplay_row2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/egg1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:contentDescription="egg1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/egg1"
+            android:tag="monster1" />
+
+        <ImageView
+            android:id="@+id/egg2"
+            android:tag="monster2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="#C78EE6"
+            android:clickable="true"
+            android:src="@drawable/egg2" />
+
+        <ImageView
+            android:id="@+id/egg3"
+            android:tag="monster3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:src="@drawable/egg3" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/willowTree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="209dp"
+        android:onClick="treeClicks"
+        android:text="tree/clicker"
+        app:layout_constraintBottom_toTopOf="@+id/eggDisplay_row1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/clicks"
+        android:layout_width="2000dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="30dp"
+        android:background="#C88484"
+        android:backgroundTint="#00C58080"
+        android:text="Clicks:"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/storageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="31dp"
+        android:text="storage"
+        app:layout_constraintStart_toEndOf="@+id/clicks"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/eggDisplay_row2"
+        android:layout_width="412dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/foodShop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/egg4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="100dp"
+            android:backgroundTint="#C78EE6"></Button>
+
+        <Button
+            android:id="@+id/egg5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:backgroundTint="#C78EE6"></Button>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
