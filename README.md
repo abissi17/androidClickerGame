@@ -165,7 +165,7 @@ This game uses some cool programming concepts:
 To complete the game:
 1. Hatch all three monsters (costs: 50, 200, 750 clicks)
 2. Level up all monsters to Level 5 (requires purchasing and feeding food)
-3. Reach 100,000 total clicks to see the ending screen
+3. Reach 500,000 total clicks to reach the end of the game
 
 **Strategy tip**: The Wisp's boost effect multiplies the power of your other monsters, so leveling up all three monsters together creates exponential growth!
 
