@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/monsterPopUp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="#D2A993"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/feedingPage"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="#EFCACA">
+
+                <Button
+                    android:id="@+id/feedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/abril_fatface"
+                    android:text="FEED"
+                    android:textColorLink="#5B3B3B"
+                    app:rippleColor="#884E4E" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:fontFamily="@font/abril_fatface"
+                    android:text="Amount Left:"
+                    android:textColor="#6F413B"
+                    android:textColorLink="#BF4435" />
+
+                <Spinner
+                    android:id="@+id/dropDownMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="75dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="100dp"
+                    android:fontFamily="@font/abril_fatface"
+                    android:gravity="center"
+                    android:text="Type of Food:"
+                    android:textColor="#6B403A" />
+
+                <TextView
+                    android:id="@+id/foodAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/abril_fatface"
+                    android:text="0"
+                    android:textColor="#6D3F39"
+                    android:textSize="30dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/monsterLevelPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/monsterImage"
+                    android:layout_width="194dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_marginBottom="1dp"
+                    app:srcCompat="@drawable/flower_monster_resized" />
+
+                <TextView
+                    android:id="@+id/level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="97dp"
+                    android:fontFamily="@font/abril_fatface"
+                    android:text="Level 1"
+                    android:textColor="#6F423C"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="75dp"
+                    android:fontFamily="@font/abril_fatface"
+                    android:text="0/50"
+                    android:textColor="#6F423B" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/monsterDescPage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A6816C">
+
+            <TextView
+                android:id="@+id/monsterDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/abril_fatface"
+                android:text="Monster Desc"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

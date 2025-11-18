@@ -27,5 +27,12 @@ public class landingPage extends AppCompatActivity {
     public void startButton(View view){
         Intent gameIntent = new Intent(this, MainActivity.class);
         startActivity(gameIntent);
+        finish(); // Close landing page to prevent multiple instances
+    }
+
+    public void creditPage(View view){
+        Intent intent = new Intent(this, CreditPage.class);
+        startActivity(intent);
+        finish();
     }
 }
