@@ -1,6 +1,6 @@
 # Monster Clicker Game
 
-A fun Android mobile game where you collect clicks to hatch adorable monster eggs!
+A fun Android mobile game where you collect clicks to hatch adorable monster eggs and grow your willow tree!
 
 ![Willow Monster Logo](app/src/main/res/drawable/willow_monster_logo.png)
 
@@ -168,17 +168,5 @@ To complete the game:
 3. Reach 100,000 total clicks to see the ending screen
 
 **Strategy tip**: The Wisp's boost effect multiplies the power of your other monsters, so leveling up all three monsters together creates exponential growth!
-
-## Future Ideas
-
-Some things that could be added:
-- Saving your progress so you don't lose it when you close the app
-- Sound effects when eggs hatch and when feeding monsters
-- Animations for monster hatching and tree growth
-- More monsters with unique powers
-- Achievement system
-- Different game modes or difficulty levels
-
----
 
 Made with Android Studio
