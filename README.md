@@ -59,19 +59,19 @@ Your goal is to hatch all three types of monsters and level them up to max level
 Feed your monsters to level them up! There are three types of food available:
 
 ### Orange & Lemon Tea
-![Orange & Lemon Tea](app/src/main/res/drawable/orange_lemon_tea.png)
+<img src="app/src/main/res/drawable/orange_lemon_tea.png" alt="Orange & Lemon Tea" width="512" height="512">
 
 **Cost**: 25 clicks
 **Food Points**: 10 points toward next level
 
 ### Clovers & Petals Salad
-![Clovers & Petals Salad](app/src/main/res/drawable/clover_petal_salad.png)
+<img src="app/src/main/res/drawable/clover_petal_salad.png" alt="Clovers & Petals Salad" width="512" height="512">
 
 **Cost**: 50 clicks
 **Food Points**: 25 points toward next level
 
 ### Strawberries & Corn Icecream
-![Strawberries & Corn Icecream](app/src/main/res/drawable/corn_strawberry_icecream.png)
+<img src="app/src/main/res/drawable/corn_strawberry_icecream.png" alt="Strawberries & Corn Icecream" width="512" height="512">
 
 **Cost**: 100 clicks
 **Food Points**: 50 points toward next level
@@ -88,9 +88,9 @@ Feed your monsters to level them up! There are three types of food available:
 
 Before you hatch them, monsters appear as colorful eggs:
 
-- ![Egg 1](app/src/main/res/drawable/egg1.png) Egg 1
-- ![Egg 2](app/src/main/res/drawable/egg2.png) Egg 2
-- ![Egg 3](app/src/main/res/drawable/egg3.png) Egg 3
+- <img src="app/src/main/res/drawable/egg1.png" alt="Egg 1" width="512" height="512"> Egg 1
+- <img src="app/src/main/res/drawable/egg2.png" alt="Egg 2" width="512" height="512"> Egg 2
+- <img src="app/src/main/res/drawable/egg3.png" alt="Egg 3" width="512" height="512"> Egg 3
 
 ### The Growing Willow Tree
 
