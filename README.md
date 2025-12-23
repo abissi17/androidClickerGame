@@ -88,9 +88,9 @@ Feed your monsters to level them up! There are three types of food available:
 
 Before you hatch them, monsters appear as colorful eggs:
 
-- <img src="app/src/main/res/drawable/egg1.png" alt="Egg 1" width="512" height="512"> Egg 1
-- <img src="app/src/main/res/drawable/egg2.png" alt="Egg 2" width="512" height="512"> Egg 2
-- <img src="app/src/main/res/drawable/egg3.png" alt="Egg 3" width="512" height="512"> Egg 3
+- <img src="app/src/main/res/drawable/egg1.png" alt="Egg 1" width="312" height="312">
+- <img src="app/src/main/res/drawable/egg2.png" alt="Egg 2" width="312" height="312">
+- <img src="app/src/main/res/drawable/egg3.png" alt="Egg 3" width="312" height="312">
 
 ### The Growing Willow Tree
 
