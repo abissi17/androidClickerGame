@@ -2,6 +2,30 @@
 
 A fun Android mobile game where you collect clicks to hatch adorable monster eggs and grow your willow tree!
 
+## 🎮 Download & Play
+
+**[Click here to download and play the game!](willow_clicker_game.apk)**
+
+### System Requirements & Compatibility
+
+**Minimum Requirements:**
+- **Android Version**: Android 12 (API 31) or higher
+- **Storage Space**: At least 20 MB free space
+- **RAM**: 2 GB or more recommended
+
+**Compatible Devices:**
+- Any Android smartphone or tablet running Android 12+
+- Screen resolution: 720x1280 or higher recommended
+
+**Installation Instructions:**
+1. Download the APK file by clicking the link above
+2. Open the downloaded `willow_clicker_game.apk` file on your Android device
+3. If prompted, enable "Install from Unknown Sources" in your device settings
+4. Follow the on-screen instructions to complete installation
+5. Launch the game and start playing!
+
+**Note**: This game requires permission to install apps from unknown sources. Make sure to download only from trusted sources.
+
 ![Willow Monster Logo](app/src/main/res/drawable/willow_monster_logo.png)
 
 ## What is this game?
